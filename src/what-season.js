@@ -21,5 +21,6 @@ module.exports = function getSeason(date) {
     var mothNum = date.getMonth();  
     return monthsStr[mothNum];
   }
+  
   throw new Error();
 };
